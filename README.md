@@ -35,7 +35,7 @@
 |------|------|
 | **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | ![](img/tools-download/shana-encoder.png#gh-md-img-large)<br>![](img/tools-download/shana-encoder-1.png#gh-md-img-large)<br>ffmpeg-CLI 搭配部分 GUI，上手较慢。使用了 ffmpeg 内嵌的 libx264、libx265、NVEnc。 |
 | **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | ![](img/tools-download/simple-x264-launcher.png#gh-md-img-large)<br>内嵌 AviSynth，支持便携版 VapourSynth，额外支持 x265 和 NVEnc 编码器，适合批量压制。 |
-| **小丸工具箱<br>（镜像：[百度云](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取码 `crhu`**） | ![](img/tools-download/xiaowan-toolbox.png#gh-md-img-large)<br>操作简单、适合入门的中文软件，内嵌 MediaInfo、mp4box、Mkvtoolnix。 |
+| **小丸工具箱<br>镜像：[百度云](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取码 `crhu`** | ![](img/tools-download/xiaowan-toolbox.png#gh-md-img-large)<br>操作简单、适合入门的中文软件，内嵌 MediaInfo、mp4box、Mkvtoolnix。 |
 
 ## 视频画质跑分工具
 
@@ -49,9 +49,9 @@
 
 | 工具 | 简介 |
 |------|------|
-| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | ![](img/tools-download/ffmetrics.png#gh-md-img-large)<br>![](img/tools-download/ffmetrics-1.png#gh-md-img-large)<br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>需 .NET Framework 4.8.0 和手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
+| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | ![](img/tools-download/ffmetrics.png#gh-md-img-large)<br>![](img/tools-download/ffmetrics-1.png#gh-md-img-large)<br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
 | **XPSNR（ffmpeg 内置）**                                          | 计算“源与压缩结果的差异”，注重暂停画质的深度改进版 PSNR，需要源视频与压缩结果的时间基对齐 |
-| **多方法融合（VMAF，ffmpeg 内置）**                                | 主观画质指标跑分，倾向于检查视觉观感体验，而非简单地差异（如高压缩下保证大体观感），需要源视频与压缩结果的时间基对齐 |
+| **VMAF（ffmpeg 内置）**                                           | 主观画质指标跑分，倾向于检查视觉观感体验，而非简单地差异（如高压缩下保证大体观感），需要源视频与压缩结果的时间基对齐 |
 | **[SSIMULACRA2 VS-HIP](https://github.com/Line-fr/Vship)**       | 使用英伟达和 AMD 显卡计算 SSIMULACRA2.1、Butteraugli 的准确视频画质跑分命令行工具，准确度同样受到显卡快但精度低的影响 |
 | **[SSIMULACRA2_rs](https://github.com/rust-av/ssimulacra2_bin)** | 使用 CPU 多线程计算 SSIMULACRA2.1，比 VS-HIP 的更慢，且需要编译、需要 Python-VapourSynth 环境，优点是精度更高（由于和画质相关，因此得分也更高） |
 
