@@ -1,15 +1,5 @@
 # 附录：工具与下载合集
 
-<style>
-img[src*="#gh-md-img-large"] {
-    width: 80%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 12px auto;
-}
-</style>
-
 ## 急用版 x264、x265、SVT-AV1 压制教程
 
 **首页：**[nazorip.site](https://nazorip.site/archives/1476)、**镜像备份：**[谷歌盘](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度云](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
