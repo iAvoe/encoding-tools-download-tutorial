@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">nasm 图标</title>
+  <!-- 背景（紫色） -->
+  <rect width="100%" height="100%" fill="#3f3e84" rx="8" ry="8"/>
+  <!-- 大圆（白色） -->
+  <circle cx="100" cy="100" r="70" fill="#ffffff"/>
+  <!-- 连接小圆的斜线（白色，圆角端点） -->
+  <line x1="149.5" y1="50.5" x2="172" y2="28" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+  <!-- 小圆（白色） -->
+  <circle cx="172" cy="28" r="14" fill="#ffffff"/>
+  <!-- 文本 nasm（使用背景色作为字体色，居中） -->
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="middle"
+        font-family="Segoe UI, Roboto, Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="44" fill="#3f3e84">nasm</text>
+</svg>
