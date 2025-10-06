@@ -49,14 +49,16 @@
 
 | 工具 | 简介 |
 |------|------|
-| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | ![](img/tools-download/ffmetrics.png#gh-md-img-large)<br>![](img/tools-download/ffmetrics-1.png#gh-md-img-large)<br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
+| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | ![](img/tools-download/ffmetrics.png#gh-md-img-large)<br>![](img/tools-download/ffmetrics-1.png#gh-md-img-large)<br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>需手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
 | **XPSNR（ffmpeg 内置）**                                          | 计算“源与压缩结果的差异”，注重暂停画质的深度改进版 PSNR，需要源视频与压缩结果的时间基对齐 |
 | **VMAF（ffmpeg 内置）**                                           | 主观画质指标跑分，倾向于检查视觉观感体验，而非简单地差异（如高压缩下保证大体观感），需要源视频与压缩结果的时间基对齐 |
 | **[SSIMULACRA2 VS-HIP](https://github.com/Line-fr/Vship)**       | 使用英伟达和 AMD 显卡计算 SSIMULACRA2.1、Butteraugli 的准确视频画质跑分命令行工具，准确度同样受到显卡快但精度低的影响 |
 | **[SSIMULACRA2_rs](https://github.com/rust-av/ssimulacra2_bin)** | 使用 CPU 多线程计算 SSIMULACRA2.1，比 VS-HIP 的更慢，且需要编译、需要 Python-VapourSynth 环境，优点是精度更高（由于和画质相关，因此得分也更高） |
 
 > 虽然 FFMetrics 在导入文件时限制了格式范围，但它直接调用了 ffmpeg，因此可以选择“所有文件”来选中新编码格式的视频流
+
 > VMAF 可在 [Netflix/vmaf](https://github.com/Netflix/vmaf) 获取最新版模型与运行脚本，但 ffmpeg 内置版本更容易实现多视频批量检测
+
 > SSIMULACRA2_rs 支持手动指定多线程参数，从而显著提高速度
 
 ### 时间基对齐工具
@@ -95,6 +97,7 @@
   - `C:\Program Files\VapourSynth\plugins`
 
 > ssimulacra2_rs 在 PowerShell 中无法正常打印信息，需要使用 CMD 运行
+
 > LSMAS 缓存文件代表“O__&lt;视频文件名&gt;.lwi” 索引文件，这些文件相当于缓存，但运行完后需要手动删除
 
 ---
@@ -125,6 +128,7 @@
 ## 视频编码器
 
 > lavf（LibavFormat）是负责封装/解封装的动态链接库
+
 > FFMS2（FFmpegSource2）是负责解码的动态链接库，用于给 x264 内置的 AviSynth 提供解码后的源
 
 ### x264
@@ -137,7 +141,8 @@
 | **x264 7mod<br>[谷歌盘](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)<br>[百度云](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)** | ✅ FFMS2 Lavf 解码与封装 | 8-10bit，hqdn3d 时域降噪 |
 | **[Komisar (KMod)](http://komisar.gin.by/)**                 | ✅ FFMS2 解码、Lavf 封装               | 8, 10bit |
 
-> [8-10-12bit] 表示一个可同时支持三种色深的可执行文件；  
+> [8-10-12bit] 表示一个可同时支持三种色深的可执行文件；
+
 > [8][10][12]bit 表示三种不同可执行文件版本。  
 
 ---
@@ -165,6 +170,7 @@
 ### SVT-AV1 下载
 
 > 编码器由两个文件组成：`SvtAv1Enc.dll`、`SvtAv1EncApp.exe`
+
 > Clang（LLVM）针对当前 PC CPU 架构编译版本的性能最佳，其次是 GCC，再次为 MSVC（Visual Studio）；性能差异最高可达 10%~50%
 
 | 来源 | 封装支持 | 色深支持 | 已编译 | 特性 |
@@ -273,6 +279,7 @@ chcp 65001
 call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
 ```
 > 若已经有了“C++ 桌面应用开发组件”的 64bit Visual Studio，则路径可能是：
+
 > `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat`
 
 ![](img/svt-av1-download/vcvars64.png#gh-md-img-large)  
