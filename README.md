@@ -29,6 +29,8 @@
 | **[DXVA Checker](https://bluesky-soft.com/en/DXVAChecker.html)** | ![](img/tools-download/dxva-checker-2.png#gh-md-img-large)<br>检测 PC 支持的硬件编解码能力 |
 | **[Process Lasso](https://bitsum.com/)** | ![](img/tools-download/process-lasso.png#gh-md-img-large)<br>![](img/tools-download/process-lasso-1.png#gh-md-img-large)<br>自动优化进程优先级与电源计划工具，保证高占用软件卡死时系统正常响应 |
 
+注：目前没有直播平台明确支持恢复直播会话的能力。因此当大型游戏卡死，系统不响应，只能断电重启时，唯一的选择是创建新直播，然后向旧会​​话发送消息以通知观众跳转（对主播和观众来说都很麻烦）。虽然 Pro Balance 调度并非包治百病，但它在一定程度上保证了系统更容易响应用户操作，也减少了直播中断的一种可能。
+
 ## 调用编码器的 GUI 工具
 
 | 工具 | 简介 |
