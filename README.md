@@ -315,6 +315,49 @@ ninja -C svt_build
 
 ---
 
+## 编码器官方开源项目
+
+基本上有以下用途：
+- 下载并检查、修改、编译源码
+- 检查变更提交（Commit）的更新信息
+- 向开发者反馈编码器问题（Issues）
+
+| 视频编码器项目                                                                             | 简介                                               |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **[x264 – VideoLAN](https://code.videolan.org/videolan/x264)**                      | H.264/AVC 编码器，由 VideoLAN 团队维护，广泛用于 FFmpeg、OBS 等。 |
+| **[x265 – MulticoreWare](https://bitbucket.org/multicoreware/x265_git/src/master)** | H.265/HEVC 编码器的主要开源实现。                           |
+| **[SVT-AV1 – AOMedia](https://gitlab.com/AOMediaCodec/SVT-AV1)**                    | Intel 维护的高性能 AV1 编码器，属于 AOMedia 官方 SVT 系列。       |
+| **[libaom – AOMedia](https://aomedia.googlesource.com/aom/)**                       | AOMedia 官方 AV1 编码器参考实现（质量优先）。                    |
+| **[rav1e – Xiph / Mozilla](https://github.com/xiph/rav1e)**                         | 用 Rust 编写的 AV1 编码器，专注安全与速度。                      |
+| **[vpx – WebM / Google](https://chromium.googlesource.com/webm/libvpx/)**           | Google 的 VP8/VP9 官方实现。                           |
+| **[SVT-HEVC – Intel](https://github.com/OpenVisualCloud/SVT-HEVC)**                 | Intel 的高性能 HEVC 编码器（面向服务器/云转码）。                  |
+| **[SVT-VP9 – Intel](https://github.com/OpenVisualCloud/SVT-VP9)**                   | Intel 的 VP9 编码器实现。                               |
+| **[openh264 – Cisco](https://github.com/cisco/openh264)**                           | Cisco 开源的 H.264 编码器，轻量级且广泛用于实时通信。                |
+| **[Theora – Xiph.Org](https://gitlab.xiph.org/xiph/theora)**                        | 基于 VP3 的开放视频编码标准。                                |
+| **[FFmpeg – FFmpeg.org](https://github.com/FFmpeg/FFmpeg)**                         | 虽非单独编码器，但整合了 x264、x265、libaom、SVT 等众多编码器。        |
+| **[Daala – Xiph.Org](https://gitlab.xiph.org/xiph/daala)**                          | Xiph 的实验性下一代视频编码器（为 AV1 提供技术基础）。                 |
+| **[VVenC – Fraunhofer HHI](https://github.com/fraunhoferhhi/vvenc)**                | Fraunhofer HHI 的 VVC (H.266) 开源编码器。              |
+| **[VVC Test Model (VTM)](https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM)**    | JVET 官方 VVC/H.266 参考软件实现。                        |
+
+
+| 音频编码器项目                                                                  | 简介                                                     |
+| ------------------------------------------------------------------------ | ------------------------------------------------------ |
+| **[QAAC – nu774](https://github.com/nu774/qaac)**                        | 基于 Apple CoreAudio 的 AAC 编码器前端（Windows 上需 iTunes DLL）。 |
+| **[Opus – Xiph / Mozilla / Skype](https://gitlab.xiph.org/xiph/opus)**   | IETF 标准化的低延迟音频编码器，适用于语音与音乐。                            |
+| **[libopusenc – Xiph.Org](https://gitlab.xiph.org/xiph/libopusenc)**     | 封装 Opus 编码 API 的简易库，用于录音或实时流。                          |
+| **[FDK-AAC – Fraunhofer IIS](https://github.com/mstorsjo/fdk-aac)**      | Fraunhofer 官方开源 AAC 编码器（高质量 LC/HE/HEv2 模式）。            |
+| **[LAME – HydrogenAudio](https://lame.sourceforge.io/)**                 | 著名的开源 MP3 编码器。                                         |
+| **[FLAC – Xiph.Org](https://gitlab.xiph.org/xiph/flac)**                 | 无损音频压缩格式 FLAC 的官方实现。                                   |
+| **[Vorbis – Xiph.Org](https://gitlab.xiph.org/xiph/vorbis)**             | Xiph.Org 的有损音频编码器，开源替代 MP3。                            |
+| **[Musepack (MPC)](https://github.com/MusepackProject/musepack)**        | 专注高比特率透明音质的音频编码器。                                      |
+| **[WavPack](https://github.com/dbry/WavPack)**                           | 无损/有损混合音频编码器。                                          |
+| **[ALAC – Apple](https://github.com/macosforge/alac)**                   | Apple 无损音频编解码器（ALAC）的开源实现。                             |
+| **[TTA – True Audio](http://true-audio.com/)**                           | 无损音频编码格式 TTA 的官方实现。                                    |
+| **[Monkey’s Audio (APE)](https://github.com/monkeysaudio/Monkey-Audio)** | 高压缩率的无损音频编码器。                                          |
+| **[Shorten – SoftSound](https://github.com/robdobsn/shorten)**           | 早期无损音频格式（FLAC 的前身之一）。                                  |
+
+---
+
 ## 参考
 
 SVT-AV1 CLang LLVM 编译的原教程位于 [Discord/AV1 weeb edition/scripts-tools-and-guides](https://discord.com/channels/992019264959676448/1253334764920766505)，本教程进行了本地化（如修改 set 命令、添加 chcp 命令），以及额外说明（如 Visual Studio 已经安装的 vcvars），额外引导（下载具体版本），以及额外的检查（LLVM、NASM、CMAKE 是否正确安装）等改进。
