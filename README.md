@@ -20,24 +20,24 @@
 
 | 工具 | 简介 |
 |------|------|
-| **[mpv 播放器](https://mpv.io/installation/)** | ![](img/tools-download/mpv.png#gh-md-img-large)<br>现代视频播放器，支持深度配置、定制，缺点是界面仅英语，中文支持要看第三方修改版。[安装教程](https://nazorip.site/archives/1052/) |
-| **[ffmpeg<br>滤镜工具与编码器](http://ffmpeg.org/download.html)** | ![](img/tools-download/ffmpeg.svg#gh-md-img-large)<br>视频压制流程的核心，提供封装、解封装、滤镜、音视频处理与命令行调用接口 |
-| **[Voukoder<br>剪辑软件导出插件](https://www.voukoder.org/)** | ![](img/tools-download/voukoder.png#gh-md-img-large)<br>Premiere/Vegas/AE 开源导出插件。 |
-| **[OBS<br>开源直播与录制工具](https://obsproject.com/zh-cn/download)** | ![](img/tools-download/obs.png#gh-md-img-large)<br>![](img/tools-download/obs-1.webp#gh-md-img-large)<br>适合录制原素材或采集压制前后对比视频，支持命令行设定编码器，现代窗口和音频捕获方法，但也需要花时间配置。 |
-| **[MediaInfo<br>元数据读取工具](https://mediaarea.net/zh-CN/MediaInfo)** | ![](img/tools-download/mediainfo-1.png#gh-md-img-large)<br>开源媒体信息查看器。 |
-| **[ffprobe<br>视音频读取与分析工具](http://ffmpeg.org/download.html)** | ![](img/tools-download/ffprobe-excel.png#gh-md-img-large)<br>CLI 媒体元数据分析工具。[Excel 可视化教程](https://nazorip.site/archives/1068/) |
-| **[DXVA Checker](https://bluesky-soft.com/en/DXVAChecker.html)** | ![](img/tools-download/dxva-checker-2.png#gh-md-img-large)<br>检测 PC 支持的硬件编解码能力 |
-| **[Process Lasso](https://bitsum.com/)** | ![](img/tools-download/process-lasso.png#gh-md-img-large)<br>![](img/tools-download/process-lasso-1.png#gh-md-img-large)<br>自动优化进程优先级与电源计划工具，保证高占用软件卡死时系统正常响应 |
+| **[mpv 播放器](https://mpv.io/installation/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mpv.png" alt="MPV-Player" width="600"></div><br>现代视频播放器，支持深度配置、定制，缺点是界面仅英语，中文支持要看第三方修改版。[安装教程](https://nazorip.site/archives/1052/) |
+| **[ffmpeg<br>滤镜工具与编码器](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmpeg.svg" alt="FFMpeg" width="400"></div><br>视频、音频、图像处理的工具集，提供封装、解封装、滤镜、音视频处理与命令行调用接口，常被作为视频处理的核心工具 |
+| **[Voukoder<br>剪辑软件导出插件](https://www.voukoder.org/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/voukoder.png" alt="Voukoder" width="600"></div><br>Premiere/Vegas/AE 开源导出插件。 |
+| **[OBS<br>开源直播与录制工具](https://obsproject.com/zh-cn/download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/obs.png" alt="OBS" width="600"><img src="img/tools-download/obs-1.webp" alt="OBS-1" width="600"></div><br>适合录制原素材或采集压制前后对比视频，支持命令行设定编码器，现代窗口和音频捕获方法，但也需要花时间配置。 |
+| **[MediaInfo<br>元数据读取工具](https://mediaarea.net/zh-CN/MediaInfo)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mediainfo-1.png" alt="Mediainfo" width="600"></div><br>开源媒体信息查看器。 |
+| **[ffprobe<br>视音频读取与分析工具](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffprobe-excel.png" alt="ffprobe-with-excel" width="600"></div><br>CLI 媒体元数据分析工具。[Excel 可视化教程](https://nazorip.site/archives/1068/) |
+| **[DXVA Checker](https://bluesky-soft.com/en/DXVAChecker.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/dxva-checker-2.png" alt="DXVA-Checker" width="600"></div><br>检测 PC 支持的硬件编解码能力 |
+| **[Process Lasso](https://bitsum.com/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/process-lasso.png" alt="process-lasso" width="600"><img src="img/tools-download/process-lasso-1.png" alt="process-lasso-1" width="600"></div><br>自动优化进程优先级与电源计划工具，保证高占用软件卡死时系统正常响应 |
 
-注：目前没有直播平台明确支持恢复直播会话的能力。因此当大型游戏卡死，系统不响应，只能断电重启时，唯一的选择是创建新直播，然后向旧会​​话发送消息以通知观众跳转（对主播和观众来说都很麻烦）。虽然 Pro Balance 调度并非包治百病，但它在一定程度上保证了系统更容易响应用户操作，也减少了直播中断的一种可能。
+**注**：目前没有直播平台明确支持恢复直播会话的能力。因此当大型游戏卡死，系统不响应，只能断电重启时，唯一的选择是创建新直播，然后向旧会​​话发送消息以通知观众跳转（对主播和观众来说都很麻烦）。虽然 Pro Balance 调度不包治百病，但它在一定程度上保证了系统更容易响应用户操作，也减少了直播中断的一种可能。但对于非常不稳定的程序或没有通过烤机检测硬件稳定性的工况来说还是会卡死。
 
 ## 调用编码器的 GUI 工具
 
 | 工具 | 简介 |
 |------|------|
-| **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | ![](img/tools-download/shana-encoder.png#gh-md-img-large)<br>![](img/tools-download/shana-encoder-1.png#gh-md-img-large)<br>ffmpeg-CLI 搭配部分 GUI，上手较慢。使用了 ffmpeg 内嵌的 libx264、libx265、NVEnc。 |
-| **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | ![](img/tools-download/simple-x264-launcher.png#gh-md-img-large)<br>内嵌 AviSynth，支持便携版 VapourSynth，额外支持 x265 和 NVEnc 编码器，适合批量压制。 |
-| **小丸工具箱<br>镜像：[百度云](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取码 `crhu`** | ![](img/tools-download/xiaowan-toolbox.png#gh-md-img-large)<br>操作简单、适合入门的中文软件，内嵌 MediaInfo、mp4box、Mkvtoolnix。 |
+| **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/shana-encoder.png" alt="shana-encoder" width="500"><img src="img/tools-download/shana-encoder-1.png" alt="shana-encoder-1" width="500"><img src="img/tools-download/shana-encoder-2.png" alt="shana-encoder-2" width="500"></div><br>ffmpeg-CLI 搭配部分 GUI，上手较慢。使用了 ffmpeg 内嵌的 libx264、libx265、NVEnc。 |
+| **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>内嵌 AviSynth，支持便携版 VapourSynth，额外支持 x265 和 NVEnc 编码器，适合批量压制。 |
+| **小丸工具箱<br>镜像：[百度云](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取码 `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>操作简单、适合入门的中文软件，内嵌 MediaInfo、mp4box、Mkvtoolnix。 |
 
 ## 视频画质跑分工具
 
@@ -51,13 +51,13 @@
 
 | 工具 | 简介 |
 |------|------|
-| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | ![](img/tools-download/ffmetrics.png#gh-md-img-large)<br>![](img/tools-download/ffmetrics-1.png#gh-md-img-large)<br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>需手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
+| **[FFMetrics](https://github.com/fifonik/FFMetrics)**            | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmetrics.png" alt="FFMetrics" width="600"><img src="img/tools-download/ffmetrics-1.png" alt="FFMetrics-1" width="600"></div><br>测量 PSNR、SSIM、VMAF 的开源 GUI 软件，支持实时图表显示和多版本并行排名。<br>需手动添加 ffmpeg 到程序目录（或添加 ffmpeg 到 `%PATH%`） |
 | **XPSNR（ffmpeg 内置）**                                          | 计算“源与压缩结果的差异”，注重暂停画质的深度改进版 PSNR，需要源视频与压缩结果的时间基对齐 |
 | **VMAF（ffmpeg 内置）**                                           | 主观画质指标跑分，倾向于检查视觉观感体验，而非简单地差异（如高压缩下保证大体观感），需要源视频与压缩结果的时间基对齐 |
 | **[SSIMULACRA2 VS-HIP](https://github.com/Line-fr/Vship)**       | 使用英伟达和 AMD 显卡计算 SSIMULACRA2.1、Butteraugli 的准确视频画质跑分命令行工具，准确度同样受到显卡快但精度低的影响 |
 | **[SSIMULACRA2_rs](https://github.com/rust-av/ssimulacra2_bin)** | 使用 CPU 多线程计算 SSIMULACRA2.1，比 VS-HIP 的更慢，且需要编译、需要 Python-VapourSynth 环境，优点是精度更高（由于和画质相关，因此得分也更高） |
 
-> 虽然 FFMetrics 在导入文件时限制了格式范围，但它直接调用了 ffmpeg，因此可以选择“所有文件”来选中新编码格式的视频流
+> 尽管 FFMetrics 在导入文件时限制了格式范围，但它直接调用了 ffmpeg，因此可以选择“所有文件”来选中新编码格式的视频流
 
 > VMAF 可在 [Netflix/vmaf](https://github.com/Netflix/vmaf) 获取最新版模型与运行脚本，但 ffmpeg 内置版本更容易实现多视频批量检测
 
@@ -135,6 +135,10 @@
 
 ### x264
 
+<div style="display: flex; justify-content: center; align-items: center;"><img src="img/x264-x265-download/x264_fire_final.png" alt="x264-logo" width="500"></div>
+
+> 来源：[Wikipedia](https://commons.wikimedia.org/wiki/File:X264.png)
+
 | 来源 | 封装支持 | 特性 |
 |------|---------|------|
 | **[Patman](https://www.mediafire.com/folder/arv5xmdqyiczc)** | ✅ FFMS2 解码、Lavf 封装              | 8-10bit |
@@ -151,9 +155,11 @@
 
 ### x265
 
-> 不支持额外的解码与封装/解封装功能并非缺陷。视频编码器不管音频，因此音频流仍需封装
+<div style="display: flex; justify-content: center; align-items: center;"><img src="img/x264-x265-download/X265_(HEVC_encoder,_logo).svg" alt="x265-logo" width="400"></div>
 
-> x265、AV1、VVC 等较新编码的未封装格式能够提供帧率、分辨率、色彩格式等全局元数据，未封装也可在播放器中预览
+> 来源：[Wikipedia](https://en.wikipedia.org/wiki/File:X265_%28HEVC_encoder%2C_logo%29.svg)
+
+视频编码器本体不支持额外的解码与封装/解封装功能并非缺陷。视频编码器本身不处理音频流，因此压制视频后，音频流仍需封装。此外，x265、AV1、VVC 等较新编码的未封装格式能够提供帧率、分辨率、色彩格式等全局元数据，因此未封装状态下也可在视频播放器中预览。
 
 | 来源 | 封装支持 | 色深支持 | 特性 |
 |------|---------|---------|------|
@@ -169,11 +175,14 @@
 
 ---
 
-### SVT-AV1 下载
+### SVT-AV1
 
-> 编码器由两个文件组成：`SvtAv1Enc.dll`、`SvtAv1EncApp.exe`
+<div style="display: flex; justify-content: center; align-items: center;"><img src="img/svt-av1-download/AV1_logo_2018.svg" alt="av1-logo" width="400"></div>
 
-> Clang（LLVM）针对当前 PC CPU 架构编译版本的性能最佳，其次是 GCC，再次为 MSVC（Visual Studio）；性能差异最高可达 10%~50%
+> 来源：[Wikipedia](https://commons.wikimedia.org/wiki/File:AV1_logo_2018.svg)
+
+编码器由两个文件组成：`SvtAv1Enc.dll`、`SvtAv1EncApp.exe`
+- Clang（LLVM）针对当前 PC CPU 架构编译版本的性能最佳，其次是 GCC，再次为 MSVC（Visual Studio）；性能差异最高可达 10%~50%
 
 | 来源 | 封装支持 | 色深支持 | 已编译 | 特性 |
 |------|---------|---------|--------|------|
@@ -190,13 +199,13 @@
 > 官方指南：[Build Guide](https://gitlab.com/AOMediaCodec/SVT-AV1/-/blob/master/Docs/Build-Guide.md)
 
 1. 安装 **Visual Studio**（2017/2019/2022）并启用 **C++ 桌面开发组件**  
-2. 安装 **CMake**：[CMake Releases](https://github.com/Kitware/CMake/releases)
-  - ![](img/svt-av1-download/cmake.png#gh-md-img-large)
+2. 安装 **CMake**：[CMake Releases](https://github.com/Kitware/CMake/releases#gh-md-img-large)
+  - <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/cmake-sm.png" alt="CMake" width="400"></div>
 3. 安装 **NASM**：[NASM 官方下载](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)
+  - <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/nasm.svg" alt="NASM" width="200"></div>
   - 在打开的网盘路径中根据系统和指令集位宽找最新版程序 
     - 例如，Windows 64bit 选择 最新版/win64/nasm-***-installer-x64.exe
   - 安装时可以去勾选 Manual（说明书）和 VS8 Integration（Visual Studio 8 集成）
-  - ！[](img/svt-av1-download/nasm.svg)
 4. 下载 [SVT-AV1 源代码](https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/master/SVT-AV1-master.zip) 并运行 `Build/windows/build.bat`  
 5. 编译输出位于 `Bin\Debug`，确认可执行文件存在后测试：  
 ```bash
@@ -210,11 +219,12 @@ SvtAv1EncApp.exe -v
 
 #### 一. 编译环境
 
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/llvm.png" alt="LLVM" width="400"></div>
+
 1. **LLVM（clang 支持）**：[LLVM Releases](https://github.com/llvm/llvm-project/releases/latest)
   - 在打开的网盘路径中根据系统和指令集位宽找最新版程序 
     - 例如，Windows 64bit 操作系统选 LLVM-***-win64.exe
   - 安装时选择 Add LLVM to the system PATH for all/current users
-  - ![](img/svt-av1-download/llvm.png#gh-md-img-large)
 2. **Microsoft C++ Build Tools**：[Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools)
   - 如果已经安装 Visual Studio，且直接下载了 C++ 桌面应用开发组件，则可以跳过这步
   - 下载并运行安装程序，选择 Desktop development with C++
@@ -284,7 +294,8 @@ call "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliar
 
 > `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat`
 
-![](img/svt-av1-download/vcvars64.png#gh-md-img-large)  
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/vcvars64.png" alt="vcvars64" width="600"></div>
+
 > 图：x64 Native Tools Command Prompt for VS 20xx
 
 3. 运行 vcvars64.bat 后会进入一个新的 CMD 界面，在此指定两个变量以定义使用 Clang-CL 编译器：
