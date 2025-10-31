@@ -106,17 +106,29 @@
 
 ## 音频编码器
 
-> QAAC 依赖 Aple CoreAudio，详见下方教程内容
+为减少篇幅，此处之提供两个高音质音频编码器选项。
 
-| 工具 | 简介 |
-|------|------|
-| **QAAC** | 高音质 AAC 编码器，见 **[QAAC 音频压制教程](https://www.nazorip.site/archives/44)** 或 **[GitHub 副本](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)** | 
+### QAAC
+
+注重高音质的 AAC 音频格式编码器，依赖苹果 CoreAudio。安装与使用见 **[QAAC 音频压制教程](https://www.nazorip.site/archives/44)** 或 **[GitHub 副本](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)**
+
+<div style="display: flex; justify-content: center; align-items: center;"><img src="img/audio-codec-download/AAC_original_logo.svg" alt="aac-logo" width="200"></div>
+
+> 图片来源：[Wikipedia](https://en.wikipedia.org/wiki/File:AAC_original_logo.svg)
+
+### OPUS
+
+<div style="display: flex; justify-content: center; align-items: center;"><img src="img/audio-codec-download/opus-logo.svg" alt="opus-logo" width="300"></div>
+
+> 图片来源：[OPUS 官网](https://opus-codec.org/)
+
+完全开放、免版税、多用途的 OGG 音频编解码器，一般直接通过 ffmpeg 调用。或者可以根据 [OPUS 官网](https://opus-codec.org) 的文档下载与调用 libopus。
 
 ---
 
 ## 视频滤镜工具
 
-> 建议直接学习 VCB-S 压制组的教程系列：[vcb-s.nmm-hd.org](https://vcb-s.nmm-hd.org/)
+建议直接学习 VCB-S 压制组的教程系列：[vcb-s.nmm-hd.org](https://vcb-s.nmm-hd.org/)
 
 | 工具 | 简介 |
 |------|------|
@@ -129,9 +141,9 @@
 
 ## 视频编码器
 
-> lavf（LibavFormat）是负责封装/解封装的动态链接库
+**lavf（LibavFormat）**：负责封装/解封装的动态链接库。
 
-> FFMS2（FFmpegSource2）是负责解码的动态链接库，用于给 x264 内置的 AviSynth 提供解码后的源
+**FFMS2（FFmpegSource2）**：负责解码的动态链接库，用于给 x264 内置的 AviSynth 提供解码后的源。
 
 ### x264
 
