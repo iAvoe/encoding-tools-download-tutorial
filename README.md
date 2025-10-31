@@ -110,7 +110,7 @@
 
 ### QAAC
 
-注重高音质的 AAC 音频格式编码器，依赖苹果 CoreAudio。安装与使用见 **[QAAC 音频压制教程](https://www.nazorip.site/archives/44)** 或 **[GitHub 副本](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)**
+注重高音质的 AAC 格式音频编码器，依赖苹果 CoreAudio。安装与使用见 **[QAAC 音频压制教程](https://www.nazorip.site/archives/44)** 或 **[GitHub 副本](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)**
 
 <div style="display: flex; justify-content: center; align-items: center;"><img src="img/audio-codec-download/AAC_original_logo.svg" alt="aac-logo" width="200"></div>
 
@@ -122,7 +122,7 @@
 
 > 图片来源：[OPUS 官网](https://opus-codec.org/)
 
-完全开放、免版税、多用途的 OGG 音频编解码器，一般直接通过 ffmpeg 调用。或者可以根据 [OPUS 官网](https://opus-codec.org) 的文档下载与调用 libopus。
+完全开放、免版税、多用途的 OGG 格式音频编码器，一般直接通过 ffmpeg 调用。或者可以根据 [OPUS 官网](https://opus-codec.org) 的文档下载与调用 libopus。
 
 ---
 
