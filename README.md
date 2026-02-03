@@ -283,16 +283,17 @@ cmake --version
 
 #### 2. 下载项目源代码
 
-**浏览器下载**
+##### a. 浏览器下载
 
 将 GitLab/AOMediaCodec/SVT-AV1 项目 [打包下载](https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/master/SVT-AV1-master.zip) 并解压
 
-**Git 下载**
+##### b. Git 下载
 
 若照上面安装了 Git，则打开 Git Bash，并使用下方命令下载：
 
 1. 移动到下载路径（不同的命令行工具路径格式和要求不同）
-  - `cd <下载盘>`
+  - `cd <下载路径>`
+  - 例：下载到 D 盘桌面：`cd /d/Desktop/`
 2. 下载 SVT-AV1
   - `git clone https://gitlab.com/AOMediaCodec/SVT-AV1.git`
   - `cd svt-av1`
