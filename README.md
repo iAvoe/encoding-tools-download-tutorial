@@ -6,13 +6,12 @@
 
 ## 免责声明与许可声明
 
-本教程仅用于学习与研究目的，不构成任何形式的商业使用建议或授权。
+本教程用于学习与研究目的，不构成任何形式的商业使用建议或授权。
 
 1. 本教程所提及的软件、脚本及命令行工具（包括但不限于 FFmpeg、x264/x265、SVT-AV1、QAAC、VapourSynth 等）均由其各自的开发者和组织独立维护，并受其原始许可证条款约束
 2. 若用于商业或分发用途，请遵守相关的开源许可（如 GPL、BSD、MIT 等）以及各国/地区的专利法规
-2. 本文档作者不对因使用本文所述内容造成的任何直接或间接损失承担责任
-4. 读者应自行评估并承担相应的法律与技术风险
-5. 某些音视频编解码器（如 H.264、H.265、AAC）在部分地区仍受专利保护。商用项目请咨询相关专利池（如 MPEG LA、Via Licensing）或使用免专利方案（如 AV1、Opus）
+3. 本文档作者不对因使用本文所述内容造成的任何损失承担责任；读者应自行评估并承担相应的法律与风险
+4. 某些音视频编解码器（如 H.264、H.265、AAC）在部分地区仍受专利保护。商用项目请咨询相关专利池（如 MPEG LA、Via Licensing）或使用免专利方案（如 AV1、Opus）
 
 ---
 
@@ -23,9 +22,9 @@
 | **[mpv 播放器](https://mpv.io/installation/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mpv.png" alt="MPV-Player" width="600"></div><br>现代视频播放器，支持深度配置、定制，缺点是界面仅英语，中文支持要看第三方修改版。[安装教程](https://nazorip.site/archives/1052/) |
 | **[ffmpeg<br>滤镜工具与编码器](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmpeg.svg" alt="FFMpeg" width="400"></div><br>视频、音频、图像处理的工具集，提供封装、解封装、滤镜、音视频处理与命令行调用接口，常被作为视频处理的核心工具 |
 | **[Voukoder<br>剪辑软件导出插件](https://www.voukoder.org/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/voukoder.png" alt="Voukoder" width="600"></div><br>Premiere/Vegas/AE 开源导出插件。 |
-| **[OBS<br>开源直播与录制工具](https://obsproject.com/zh-cn/download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/obs.png" alt="OBS" width="600"><img src="img/tools-download/obs-1.webp" alt="OBS-1" width="600"></div><br>适合录制原素材或采集压制前后对比视频，支持命令行设定编码器，现代窗口和音频捕获方法，但也需要花时间配置。 |
-| **[MediaInfo<br>元数据读取工具](https://mediaarea.net/zh-CN/MediaInfo)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mediainfo-1.png" alt="Mediainfo" width="600"></div><br>开源媒体信息查看器。 |
-| **[ffprobe<br>视音频读取与分析工具](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffprobe-excel.png" alt="ffprobe-with-excel" width="600"></div><br>CLI 媒体元数据分析工具。[Excel 可视化教程](https://nazorip.site/archives/1068/) |
+| **[OBS<br>开源直播与录制工具](https://obsproject.com/zh-cn/download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/obs.png" alt="OBS" width="600"><img src="img/tools-download/obs-1.webp" alt="OBS-1" width="600"></div><br>适合录制原素材或采集压制前后对比视频，支持命令行设定编码器，现代窗口和音频捕获方法，但也需要花时间配置~~和趟雷~~。 |
+| **[MediaInfo<br>元数据读取工具](https://mediaarea.net/zh-CN/MediaInfo)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mediainfo-1.png" alt="Mediainfo" width="600"></div><br>开源媒体信息查看器；许多视频分析软件功能就是通过内置它为组件实现的。 |
+| **[ffprobe<br>视音频读取与分析工具](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffprobe-excel.png" alt="ffprobe-with-excel" width="600"></div><br>CLI 媒体元数据提取工具，既可以读取一般元数据，也可以深入视频帧读取“内部信息”；<br>需要结合数据可视化软件，如 [Pyzo](https://pyzo.org)，Excel，[Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi) 实现最终的可视化 |
 | **[DXVA Checker](https://bluesky-soft.com/en/DXVAChecker.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/dxva-checker-2.png" alt="DXVA-Checker" width="600"></div><br>检测 PC 支持的硬件编解码能力 |
 | **[Process Lasso](https://bitsum.com/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/process-lasso.png" alt="process-lasso" width="600"><img src="img/tools-download/process-lasso-1.png" alt="process-lasso-1" width="600"></div><br>自动优化进程优先级与电源计划工具，保证高占用软件卡死时系统正常响应 |
 
@@ -39,15 +38,25 @@
 | **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>内嵌 AviSynth，支持便携版 VapourSynth，额外支持 x265 和 NVEnc 编码器，适合批量压制。 |
 | **小丸工具箱<br>镜像：[百度云](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取码 `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>操作简单、适合入门的中文软件，内嵌 MediaInfo、mp4box、Mkvtoolnix。 |
 
+### 其它编码器调用工具
+
+#### PowerShell 批处理智能压制工具（bbenc）
+
+一款容易上手的强力效率工具。主打自动根据视频规格，用户需求，电脑硬件等条件，给出 ffmpeg、vspipe（API 自适应）、avs2yuv（AviSynth(+) 自适应）、avs2pipemod、SVFI 源，到 x264、x265、SVT-AV1 编码器参数的定制。附带 VS/AVS 脚本自动生成功能，以及复杂封装命令生成工具。
+
+- **主页**：[NazoRip](https://nazorip.site/archives/1101/)
+    - *[GitHub 项目页](https://github.com/iAvoe/Batch-batch-encoder/tree/main)*
+    - *[提问与反馈](https://github.com/iAvoe/Batch-batch-encoder/issues)*
+
 ## 视频画质跑分工具
 
 > 所有命令行工具的下载与教程见：[AV1 视频压制教程](https://iavoe.github.io/av1-web-tutorial/HTML/index.html#h2-17)
 
 总的来说，PSNR、SSIM 不准确，不可信；测量视频画质应该选择 Spearman 单调相关系数（SROCC）和 Pearson 线性相关系数（PLCC）高，并且性能可观的画质跑分工具，如：
 - 客观：块大小感知加权峰值信噪比——XPSNR
-- 主观+客观：多方法融合——Video multi-method assessment fusion（VMAF）
+- 主观 + 客观：多方法融合——Video multi-method assessment fusion（VMAF）
 - 客观：多失真识别多分辨率结构相似性——SSIMULACRA
-- 主观+客观：XYB 空间欧几里得距离心理视觉相似性——Butteraugli
+- 主观 + 客观：XYB 空间欧几里得距离心理视觉相似性——Butteraugli
 
 | 工具 | 简介 |
 |------|------|
@@ -65,7 +74,7 @@
 
 ### 时间基对齐工具
 
-总的来说，由于部分视频画质跑分需要统计帧间距离等数据，因此源与压缩视频的时间基（Time base）需要对齐，否则跑分会严重失真（变差）。详见 AV1 教程完整版、 AV1 教程精简版。
+总的来说，由于部分视频画质跑分需要统计帧间距离等数据，因此源与压缩视频的时间基（Time base）需要对齐，否则跑分会严重失真（变差）。详见 AV1 教程完整版、AV1 教程精简版。
 
 **GitHub：**[GitHub/GCDLCMCalcualtor](https://github.com/iAvoe/GCDLCMCalculator-VideoQualityMetrics)、**镜像备份：**[谷歌盘](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度云](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
 
@@ -73,7 +82,7 @@
 
 > 来源：[GitHub/rust-av](https://github.com/rust-av/ssimulacra2_bin)
 
-#### 一. 编译环境
+#### 1. 编译环境
 
 1. 下载并安装 rustup：[rustup.rs](https://rustup.rs)
 2. **完整安装** [VapourSynth](https://github.com/vapoursynth/vapoursynth/releases)
@@ -85,7 +94,7 @@
   - VapourSynth 的版本与 Python 版本强绑定，不能随意安装版本
 4. 检查 `C:\Program Files\VapourSynth\sdk\lib64` 路径存在，若不存在则上述步骤执行有误，需卸载 Python 和 VapourSynth，仔细阅读并重试
 
-#### 二. 下载与编译
+#### 2. 下载与编译
 
 5. PowerShell 中运行 `cargo install ssimulacra2_rs`完成安装，过程中不应该有任何报错
 6. 将 `C:\Users\用户名\.cargo\bin\ssimulacra2_rs.exe` 拷贝到工作路径
@@ -100,7 +109,7 @@
 
 > ssimulacra2_rs 在 PowerShell 中无法正常打印信息，需要使用 CMD 运行
 
-> LSMAS 缓存文件代表“O__&lt;视频文件名&gt;.lwi” 索引文件，这些文件相当于缓存，但运行完后需要手动删除
+> LSMAS 缓存文件代表“O__&lt;视频文件名&gt;.lwi”索引文件，这些文件相当于缓存，但运行完后需要手动删除
 
 ---
 
@@ -175,12 +184,12 @@
 
 | 来源 | 封装支持 | 色深支持 | 特性 |
 |------|---------|---------|------|
-| **[LigH](http://www.mediafire.com/?6lfp2jlygogwa)**                               | ⛔ 导出 .hevc | 8-10-12bit      | 附 x86 32bit 版，含 libx265.dll |
-| **[jpsdr](https://github.com/jpsdr/x265/releases)**                               | ⛔ 导出 .hevc | 8-10-12bit      | GCC 12.2 + MSVC_llvm 1928，支持 aq-mode 5 |
-| **[Rigaya](https://drive.google.com/drive/folders/0BzA4dIFteM2dWEpvWGZXV3ZhdTA)** | ⛔ 导出 .hevc | 8-10-12bit      | GCC 9.3，附 32bit 版 |
-| **[Patman](https://github.com/Patman86/x265-Mod-by-Patman/releases)**             | ⛔ 导出 .hevc | 8-10-12bit      | GCC 11 + MSVC 1925 |
-| **[ShortKatz](https://forum.doom9.org/showthread.php?p=1937773#post1937773)**     | ⛔ 导出 .hevc | 8-10-12bit      | arm64~64e 的 Mac 与安卓平台使用 |
-| **[DJATOM-aMod](https://github.com/DJATOM/x265-aMod/releases/)**                  | ⛔ 导出 .hevc | 10bit, 10-12bit | LLVM 的针对 Intel 与 AMD 架构优化版 |
+| **[LigH](http://www.mediafire.com/?6lfp2jlygogwa)**                               | ⛔ 仅导出 .hevc | 8-10-12bit      | 附 x86 32bit 版，含 libx265.dll |
+| **[jpsdr](https://github.com/jpsdr/x265/releases)**                               | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 12.2 + MSVC_llvm 1928，支持 aq-mode 5 |
+| **[Rigaya](https://drive.google.com/drive/folders/0BzA4dIFteM2dWEpvWGZXV3ZhdTA)** | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 9.3，附 32bit 版 |
+| **[Patman](https://github.com/Patman86/x265-Mod-by-Patman/releases)**             | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 11 + MSVC 1925 |
+| **[ShortKatz](https://forum.doom9.org/showthread.php?p=1937773#post1937773)**     | ⛔ 仅导出 .hevc | 8-10-12bit      | arm64~64e 的 Mac 与安卓平台使用 |
+| **[DJATOM-aMod](https://github.com/DJATOM/x265-aMod/releases/)**                  | ⛔ 仅导出 .hevc | 10bit, 10-12bit | LLVM 的针对 Intel 与 AMD 架构优化版 |
 | **[MeteorRain-yuuki](https://down.7086.in/)**                                     | ✅ Lavf 封装    | 8, 10, 12bit    | GCC 9.3 + ICC 1900 + MSVC 1916 |
 
 > 未使用 y4m 或 lavf 时应手动指定 `-D` 参数
@@ -198,11 +207,11 @@
 
 | 来源 | 封装支持 | 色深支持 | 已编译 | 特性 |
 |------|---------|---------|--------|------|
-| **[SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1)**                                      | ⛔ 导出 .ivf | 8-10-12bit | ⛔ | 官方版 |
-| **[Gitlab Pipelines](https://gitlab.com/AOMediaCodec/SVT-AV1/-/pipelines)**                 | ⛔ 导出 .ivf | 8-10-12bit | ✅ | 官方 CI/CD 版，属于一种 Beta 测试版，但无需编译。找到最新通过的 Daily Run 计划，选择对应系统版本下载 |
-| **[SVT-AV1-Essential by nekotrix](https://github.com/nekotrix/SVT-AV1-Essential/releases)** | ⛔ 导出 .ivf | 8-10-12bit | ✅ | 增加了新参数，新功能参数的修改版，目前（3.1）版也与官方版进度一致 |
-| **[SVT-AV1-HDR by Patman86](https://github.com/Patman86/SVT-AV1-Mod-by-Patman)**            | ⛔ 导出 .ivf | 8-10-12bit | ⛔ | 增加了 HDR 支持的修改版 |
-| **[SVT-AV1-PSY](https://github.com/psy-ex/svt-av1-psy)**                                    | ⛔ 导出 .ivf | 8-10-12bit | ⛔ | 增加了更高画质选项的修改版，目前主要的优化已经合并到了 SVT-AV1 官方版，且已停止开发，版本落后于官方，与官方版一样需要编译 |
+| **[SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1)**                                      | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 官方版 |
+| **[Gitlab Pipelines](https://gitlab.com/AOMediaCodec/SVT-AV1/-/pipelines)**                 | ⛔ 仅导出 .ivf | 8-10-12bit | ✅ | 官方 CI/CD 版，属于一种 Beta 测试版，但无需编译。找到最新通过的 Daily Run 计划，选择对应系统版本下载 |
+| **[SVT-AV1-Essential by nekotrix](https://github.com/nekotrix/SVT-AV1-Essential/releases)** | ⛔ 仅导出 .ivf | 8-10-12bit | ✅ | 增加了新参数，新功能参数的修改版，目前（3.1）版也与官方版进度一致 |
+| **[SVT-AV1-HDR by Patman86](https://github.com/Patman86/SVT-AV1-Mod-by-Patman)**            | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 增加了 HDR 支持的修改版 |
+| **[SVT-AV1-PSY](https://github.com/psy-ex/svt-av1-psy)**                                    | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 增加了更高画质选项的修改版，目前主要的优化已经合并到了 SVT-AV1 官方版，且已停止开发，版本落后于官方，与官方版一样需要编译 |
 
 ---
 
@@ -229,7 +238,7 @@ SvtAv1EncApp.exe -v
 
 > 所有命令建议在 **CMD 或 (Git) Bash** 中执行，不要使用 PowerShell。
 
-#### 一. 编译环境
+#### 1. 编译环境
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/llvm.png" alt="LLVM" width="400"></div>
 
@@ -263,7 +272,7 @@ cmake --version
 :: CMake suite maintained and supported by Kitware (kitware.com/cmake)
 ```
 
-#### 二. 下载项目源代码
+#### 2. 下载项目源代码
 
 **浏览器下载**
 
@@ -279,7 +288,7 @@ cmake --version
   - `git clone https://gitlab.com/AOMediaCodec/SVT-AV1.git`
   - `cd svt-av1`
 
-#### 三. 编译项目
+#### 3. 编译项目
 
 **完整命令行列表（仅供参考，无法一次执行）**
 ```batch
@@ -329,7 +338,7 @@ cmake --fresh -B svt_build -G Ninja ^
 -DCMAKE_CXX_FLAGS_RELEASE="-flto /DNDEBUG /clang:-O2 -march=native" ^
 -DCMAKE_C_FLAGS_RELEASE="-flto /DNDEBUG /clang:-O2 -march=native"
 ```
-5. 最后使用 Ninja 编译，不用 `-DCMAKE_BUILD_TYPE=Release` 则会输出到 Bin\Debug ）：
+5. 最后使用 Ninja 编译，不用 `-DCMAKE_BUILD_TYPE=Release` 则会输出到 Bin\Debug）：：
 ```batch
 ninja -C svt_build
 :: *** warnings generated.
