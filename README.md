@@ -172,6 +172,13 @@
 
 > [8][10][12]bit 表示三种不同可执行文件版本。  
 
+### 自行编译 x264
+
+- [使用 media-autobuild_suite 自动编译](https://github.com/m-ab-s/media-autobuild_suite)
+  - 极其强大，文件也多的一站式多重工具一次性编译脚本系统
+- [Windows 手动编译 x264（有微小性能与压缩率提升）](.\Compile_x264_Windows.md)
+  - 缺点是未实现 ffmpegSource 模块集成（其中一个视频源直接导入的解码工具），不过几乎没有影响
+
 ---
 
 ### x265
@@ -217,16 +224,16 @@
 
 ### Windows 手动编译 SVT-AV1
 
+步骤相对简单，适合计算机新手实操的方法。
+
 > 官方指南：[Build Guide](https://gitlab.com/AOMediaCodec/SVT-AV1/-/blob/master/Docs/Build-Guide.md)
 
 1. 安装 **Visual Studio**（2017/2019/2022）并启用 **C++ 桌面开发组件**  
-2. 安装 **CMake**：[CMake Releases](https://github.com/Kitware/CMake/releases#gh-md-img-large)
-  - <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/cmake-sm.png" alt="CMake" width="400"></div>
-3. 安装 **NASM**：[NASM 官方下载](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)
-  - <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/nasm.svg" alt="NASM" width="200"></div>
-  - 在打开的网盘路径中根据系统和指令集位宽找最新版程序 
-    - 例如，Windows 64bit 选择 最新版/win64/nasm-***-installer-x64.exe
-  - 安装时可以去勾选 Manual（说明书）和 VS8 Integration（Visual Studio 8 集成）
+2. 安装 **CMake**：[CMake Releases](https://github.com/Kitware/CMake/releases#gh-md-img-large)<br><div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/cmake-sm.png" alt="CMake" width="400"></div>
+3. 安装 **NASM**：[NASM 官方下载](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)<br><div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/nasm.svg" alt="NASM" width="200"></div>
+    - 在打开的网盘路径中根据系统和指令集位宽找最新版程序 
+        - 例如，Windows 64bit 选择 最新版/win64/nasm-***-installer-x64.exe
+    - 安装时可以去勾选 Manual（说明书）和 VS8 Integration（Visual Studio 8 集成）
 4. 下载 [SVT-AV1 源代码](https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/master/SVT-AV1-master.zip) 并运行 `Build/windows/build.bat`  
 5. 编译输出位于 `Bin\Debug`，确认可执行文件存在后测试：  
 ```bash
@@ -235,6 +242,8 @@ SvtAv1EncApp.exe -v
 ---
 
 ### 使用 Clang（LLVM）编译 SVT-AV1（推荐）
+
+步骤相对复杂（但比 x264 编译简单），但性能大幅提高，适合有一点编程经验者的方法。
 
 > 所有命令建议在 **CMD 或 (Git) Bash** 中执行，不要使用 PowerShell。
 
