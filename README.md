@@ -2,5 +2,6 @@
 
 This repository now has two language versions:
 
-- [README-ZH.md](./README-ZH.md) for Chinese
-- [README-EN.md](./README-EN.md) for English
+- [README-EN.md](./README-EN.md)
+- [README-ZH.md](./README-ZH-CN.md)
+- [README-ZH.md](./README-ZH-TW.md)
