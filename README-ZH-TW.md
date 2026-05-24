@@ -2,7 +2,7 @@
 
 ## 急用版 x264、x265、SVT-AV1 壓制教學
 
-**首頁：**[nazorip.site](https://nazorip.site/archives/1476)、**鏡像備份：**[Google盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
+**首頁：**[nazorip.site](https://nazorip.site/archives/1476)、**鏡像備份：**[Google 盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
 
 ## 免責聲明與許可聲明
 
@@ -76,7 +76,7 @@
 
 總的來說，由於部分影片畫質跑分需要統計幀間距離等數據，因此源與壓縮影片的時間基（Time base）需要對齊，否則跑分會嚴重失真（變差）。詳見 AV1 教學完整版、AV1 教學精簡版。
 
-**GitHub：**[GitHub/GCDLCMCalcualtor](https://github.com/iAvoe/GCDLCMCalculator-VideoQualityMetrics)、**鏡像備份：**[Google盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
+**GitHub：**[GitHub/GCDLCMCalcualtor](https://github.com/iAvoe/GCDLCMCalculator-VideoQualityMetrics)、**鏡像備份：**[Google 盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)、[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
 
 ### SSIMULACRA2_rs 下載與編譯
 
@@ -165,7 +165,7 @@
 | **[Patman](https://www.mediafire.com/folder/arv5xmdqyiczc)** | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit |
 | **[LigH](https://www.mediafire.com/?bxvu1vvld31k1)**         | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit |
 | **[jspdr (tMod)](https://github.com/jpsdr/x264/releases/)**  | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit，MCF 執行緒管理 |
-| **x264 7mod<br>[Google盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)<br>[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)** | ✅ FFMS2 Lavf 解碼與封裝 | 8-10bit，hqdn3d 時域降噪 |
+| **x264 7mod<br>[Google 盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)<br>[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)** | ✅ FFMS2 Lavf 解碼與封裝 | 8-10bit，hqdn3d 時域降噪 |
 | **[Komisar (KMod)](http://komisar.gin.by/)**                 | ✅ FFMS2 解碼、Lavf 封裝               | 8, 10bit |
 
 > [8-10-12bit] 表示一個可同時支持三種色深的可執行文件；
