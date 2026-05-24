@@ -189,15 +189,15 @@
 
 视频编码器本体不支持额外的解码与封装/解封装功能并非缺陷。视频编码器本身不处理音频流，因此压制视频后，音频流仍需封装。此外，x265、AV1、VVC 等较新编码的未封装格式能够提供帧率、分辨率、色彩格式等全局元数据，因此未封装状态下也可在视频播放器中预览。
 
-| 来源 | 封装支持 | 色深支持 | 特性 |
-|------|---------|---------|------|
-| **[LigH](http://www.mediafire.com/?6lfp2jlygogwa)**                               | ⛔ 仅导出 .hevc | 8-10-12bit      | 附 x86 32bit 版，含 libx265.dll |
-| **[jpsdr](https://github.com/jpsdr/x265/releases)**                               | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 12.2 + MSVC_llvm 1928，支持 aq-mode 5 |
-| **[Rigaya](https://drive.google.com/drive/folders/0BzA4dIFteM2dWEpvWGZXV3ZhdTA)** | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 9.3，附 32bit 版 |
-| **[Patman](https://github.com/Patman86/x265-Mod-by-Patman/releases)**             | ⛔ 仅导出 .hevc | 8-10-12bit      | GCC 11 + MSVC 1925 |
-| **[ShortKatz](https://forum.doom9.org/showthread.php?p=1937773#post1937773)**     | ⛔ 仅导出 .hevc | 8-10-12bit      | arm64~64e 的 Mac 与安卓平台使用 |
-| **[DJATOM-aMod](https://github.com/DJATOM/x265-aMod/releases/)**                  | ⛔ 仅导出 .hevc | 10bit, 10-12bit | LLVM 的针对 Intel 与 AMD 架构优化版 |
-| **[MeteorRain-yuuki](https://down.7086.in/)**                                     | ✅ Lavf 封装    | 8, 10, 12bit    | GCC 9.3 + ICC 1900 + MSVC 1916 |
+| 来源 | 编码器封装音频 | 色深支持 | 特性 |
+|------|------------|---------|------|
+| **[LigH](http://www.mediafire.com/?6lfp2jlygogwa)**                               | ⛔ `.hevc` 裸流 | 8-10-12bit      | 附 x86 32bit 版，含 libx265.dll |
+| **[jpsdr](https://github.com/jpsdr/x265/releases)**                               | ⛔ `.hevc` 裸流 | 8-10-12bit      | GCC 12.2 + MSVC_llvm 1928，支持 aq-mode 5 |
+| **[Rigaya](https://drive.google.com/drive/folders/0BzA4dIFteM2dWEpvWGZXV3ZhdTA)** | ⛔ `.hevc` 裸流 | 8-10-12bit      | GCC 9.3，附 32bit 版 |
+| **[Patman](https://github.com/Patman86/x265-Mod-by-Patman/releases)**             | ⛔ `.hevc` 裸流 | 8-10-12bit      | GCC 11 + MSVC 1925 |
+| **[ShortKatz](https://forum.doom9.org/showthread.php?p=1937773#post1937773)**     | ⛔ `.hevc` 裸流 | 8-10-12bit      | arm64~64e 的 Mac 与安卓平台使用 |
+| **[DJATOM-aMod](https://github.com/DJATOM/x265-aMod/releases/)**                  | ⛔ `.hevc` 裸流 | 10bit, 10-12bit | LLVM 的针对 Intel 与 AMD 架构优化版 |
+| **[MeteorRain-yuuki](https://down.7086.in/)**                                     | ✅ Lavf 封装库  | 8, 10, 12bit    | GCC 9.3 + ICC 1900 + MSVC 1916 |
 
 > 未使用 y4m 或 lavf 时应手动指定 `-D` 参数
 
@@ -212,13 +212,14 @@
 编码器由两个文件组成：`SvtAv1Enc.dll`、`SvtAv1EncApp.exe`
 - Clang（LLVM）针对当前 PC CPU 架构编译版本的性能最佳，其次是 GCC，再次为 MSVC（Visual Studio）；性能差异最高可达 10%~50%
 
-| 来源 | 封装支持 | 色深支持 | 已编译 | 特性 |
-|------|---------|---------|--------|------|
-| **[SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1)**                                      | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 官方版 |
-| **[Gitlab Pipelines](https://gitlab.com/AOMediaCodec/SVT-AV1/-/pipelines)**                 | ⛔ 仅导出 .ivf | 8-10-12bit | ✅ | 官方 CI/CD 版，属于一种 Beta 测试版，但无需编译。找到最新通过的 Daily Run 计划，选择对应系统版本下载 |
-| **[SVT-AV1-Essential by nekotrix](https://github.com/nekotrix/SVT-AV1-Essential/releases)** | ⛔ 仅导出 .ivf | 8-10-12bit | ✅ | 增加了新参数，新功能参数的修改版，目前（3.1）版也与官方版进度一致 |
-| **[SVT-AV1-HDR by Patman86](https://github.com/Patman86/SVT-AV1-Mod-by-Patman)**            | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 增加了 HDR 支持的修改版 |
-| **[SVT-AV1-PSY](https://github.com/psy-ex/svt-av1-psy)**                                    | ⛔ 仅导出 .ivf | 8-10-12bit | ⛔ | 增加了更高画质选项的修改版，目前主要的优化已经合并到了 SVT-AV1 官方版，且已停止开发，版本落后于官方，与官方版一样需要编译 |
+| 来源 | 编码器封装音频 | 色深支持 | 已编译 | 特性 |
+|------|------------|---------|--------|------|
+| **[SVT-AV1](https://gitlab.com/AOMediaCodec/SVT-AV1)**                                                      | ⛔ `.ivf` 微封装   | 8-10bit | ⛔ | 官方版 |
+| **[Gitlab Pipelines](https://gitlab.com/AOMediaCodec/SVT-AV1/-/pipelines)**                                 | ⛔ `.ivf` 微封装   | 8-10bit | ✅ | 官方 CI/CD 版，属于一种 Beta 测试版，但无需编译。找到最新通过的 Daily Run 计划，选择对应系统版本下载 |
+| **[SVT-AV1-Essential by nekotrix](https://github.com/nekotrix/SVT-AV1-Essential/releases)**                 | ⛔ `.ivf` `.webm` | 8-10bit | ✅ | 改良默认参数预设，增加了新功能（参数），如自动计算瓦片大小，CRF 分区赋值（zones），高精度去块滤镜（dlf 2），固定线程占位等 |
+| **[SVT-AV1-Essential by Patman86](https://github.com/Patman86/SVT-AV1-Mods-by-Patman/tree/Essential-PMod)** | ⛔ `.ivf` 微封装   | 8-10bit | ✅ | 改良默认参数预设（以及调整预设 5-2），增加了新功能（参数），如自动计算瓦片大小，CRF 分区赋值（zones），超高精度去块滤镜（dlf 3），色度专用 FGS，固定线程占位等 |
+| **[SVT-AV1-HDR by Patman86](https://github.com/Patman86/SVT-AV1-Mods-by-Patman/tree/HDR-PMod)**             | ⛔ `.ivf` 微封装   | 8-10bit | ✅ | 改良默认参数预设，增加了 HDR 优化，如针对 PQ 优化的 Variance Boost 曲线，胶片颗粒 Tune，关键帧专用 TF 衰减偏移值，空间噪声分布一致化等 |
+| **[SVT-AV1-PSY](https://github.com/psy-ex/svt-av1-psy)**                                                    | ⛔ `.ivf` 微封装   | 8-10bit | ⛔ | 增加了更高画质选项的修改版，目前主要的优化已经合并到了 SVT-AV1 官方版，且已停止开发，版本落后于官方，与官方版一样需要编译 |
 
 ---
 
