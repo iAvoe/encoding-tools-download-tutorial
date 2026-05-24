@@ -1,6 +1,6 @@
 # Download Collection for x264, x265, and AV1 Video Encoding Tools
 
-## Quick-start x264, x265, and SVT-AV1 encoding guide
+## Quick-Start Guide for x264, x265, and SVT-AV1 Encoding
 
 **Homepage:** [nazorip.site](https://nazorip.site/archives/1476), **mirror backups:** [Google Drive](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing), [Baidu Cloud](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
 
@@ -19,7 +19,7 @@ This guide is provided for learning and research purposes only. It does not cons
 
 | Tool | Description |
 |------|-------------|
-| **[mpv player](https://mpv.io/installation/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mpv.png" alt="MPV-Player" width="600"></div><br>A modern video player with deep configuration and customization. The downside is that the interface is English-only, and Chinese support depends on third-party builds. [Install guide](https://nazorip.site/archives/1052/) |
+| **[mpv player](https://mpv.io/installation/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/mpv.png" alt="MPV-Player" width="600"></div><br>A modern video player with deep configuration and customization. The downside is that the interface is English-only; Chinese support depends on third-party builds. [Install guide](https://nazorip.site/archives/1052/) |
 | **[ffmpeg<br>filters and encoder suite](http://ffmpeg.org/download.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmpeg.svg" alt="FFMpeg" width="400"></div><br>A toolkit for video, audio, and image processing. It provides muxing, demuxing, filters, media processing, and CLI interfaces, and is often the core tool in video workflows. |
 | **[Voukoder<br>export plugin for editors](https://www.voukoder.org/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/voukoder.png" alt="Voukoder" width="600"></div><br>An open-source export plugin for Premiere, Vegas, and After Effects. |
 | **[OBS<br>open-source streaming and recording tool](https://obsproject.com/zh-cn/download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/obs.png" alt="OBS" width="600"><img src="img/tools-download/obs-1.webp" alt="OBS-1" width="600"></div><br>Useful for recording source material or capturing before/after comparison videos. It supports CLI encoder settings and modern window/audio capture methods, but still takes time to configure. |
@@ -28,21 +28,21 @@ This guide is provided for learning and research purposes only. It does not cons
 | **[DXVA Checker](https://bluesky-soft.com/en/DXVAChecker.html)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/dxva-checker-2.png" alt="DXVA-Checker" width="600"></div><br>Checks the hardware decoding and encoding capabilities supported by the PC. |
 | **[Process Lasso](https://bitsum.com/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/process-lasso.png" alt="process-lasso" width="600"><img src="img/tools-download/process-lasso-1.png" alt="process-lasso-1" width="600"></div><br>An automatic process-priority and power-plan optimization tool that helps the system stay responsive when high-load software hangs. |
 
-**Note:** No streaming platform currently offers a clear way to resume a live session. When a game freezes, the system becomes unresponsive, and a hard power cycle is the only option, the only workaround is to start a new stream and post a message to the old session to redirect viewers. It is inconvenient for both streamer and audience. Pro Balance scheduling is not a cure-all, but it can help the system stay more responsive and reduce one cause of stream interruption. Still, unstable software or untested hardware can still hang.
+**Note:** No streaming platform currently offers a clear way to resume a live session. When a game freezes and the system becomes unresponsive, a hard power cycle is the only option. The only workaround is to start a new stream and post a message to the old session to redirect viewers—inconvenient for both streamer and audience. Pro Balance scheduling is not a cure-all, but it can help the system stay more responsive and reduce one common cause of stream interruption. Still, very unstable software or untested hardware can still hang.
 
 ## GUI Tools for Calling Encoders
 
 | Tool | Description |
 |------|-------------|
 | **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/shana-encoder.png" alt="shana-encoder" width="500"><img src="img/tools-download/shana-encoder-1.png" alt="shana-encoder-1" width="500"><img src="img/tools-download/shana-encoder-2.png" alt="shana-encoder-2" width="500"></div><br>A mix of ffmpeg CLI and some GUI. It is slower to learn, but uses bundled libx264, libx265, and NVEnc from ffmpeg. |
-| **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>Includes AviSynth, supports portable VapourSynth, and also supports x265 and NVEnc. Good for batch encoding. |
+| **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>Includes AviSynth, supports portable VapourSynth, and also works with x265 and NVEnc encoders. Good for batch encoding. |
 | **Xiaowan Toolbox<br>mirror: [Baidu Cloud](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) extraction code `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>An easy-to-use Chinese tool suitable for beginners, with built-in MediaInfo, mp4box, and Mkvtoolnix. |
 
 ### Other Encoder Launchers
 
 #### PowerShell batch smart encoding tool (bbenc)
 
-An easy-to-use but powerful productivity tool. It automatically generates tailored settings for ffmpeg, vspipe (API-aware), avs2yuv (AviSynth(+) aware), avs2pipemod, and SVFI sources, then maps them to x264, x265, and SVT-AV1 encoder parameters based on video specs, user requirements, and hardware. It also includes VS/AVS script generation and complex mux command generation.
+An easy-to-use but powerful productivity tool. It automatically generates tailored ffmpeg, vspipe (API-aware), avs2yuv (AviSynth(+) aware), avs2pipemod, and SVFI source configurations, then maps them to x264, x265, and SVT-AV1 encoder parameters based on video specs, user requirements, and hardware. It also includes VS/AVS script generation and complex mux command generation.
 
 - **Homepage:** [NazoRip](https://nazorip.site/archives/1101/)
     - *[GitHub project page](https://github.com/iAvoe/Batch-batch-encoder/tree/main)*
@@ -52,15 +52,15 @@ An easy-to-use but powerful productivity tool. It automatically generates tailor
 
 > See downloads and tutorials for all CLI tools here: [AV1 video encoding tutorial](https://iavoe.github.io/av1-web-tutorial/HTML/index.html#h2-17)
 
-In general, PSNR and SSIM are inaccurate and untrustworthy. For measuring video quality, use tools with high Spearman rank correlation (SROCC) and Pearson linear correlation (PLCC), and with good performance, such as:
-- Objective: block-size-aware weighted peak signal-to-noise ratio - XPSNR
-- Subjective + objective: multi-method fusion - Video Multi-Method Assessment Fusion (VMAF)
-- Objective: multi-distortion, multi-resolution structural similarity - SSIMULACRA
-- Subjective + objective: psychovisual similarity in XYB space using Euclidean distance - Butteraugli
+In general, PSNR and SSIM are inaccurate and untrustworthy. For measuring video quality, prefer tools with high Spearman rank correlation (SROCC), high Pearson linear correlation (PLCC), and good performance, such as:
+- Objective: block-size-aware weighted PSNR — XPSNR
+- Subjective + objective: multi-method fusion — Video Multi-Method Assessment Fusion (VMAF)
+- Objective: multi-distortion, multi-resolution structural similarity — SSIMULACRA
+- Subjective + objective: psychovisual similarity in XYB space using Euclidean distance — Butteraugli
 
 | Tool | Description |
 |------|-------------|
-| **[FFMetrics](https://github.com/fifonik/FFMetrics)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmetrics.png" alt="FFMetrics" width="600"><img src="img/tools-download/ffmetrics-1.png" alt="FFMetrics-1" width="600"></div><br>An open-source GUI for measuring PSNR, SSIM, and VMAF. It supports live charts and parallel ranking across multiple versions.<br>You must add ffmpeg to the program directory manually, or add ffmpeg to `%PATH%`. |
+| **[FFMetrics](https://github.com/fifonik/FFMetrics)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/ffmetrics.png" alt="FFMetrics" width="600"><img src="img/tools-download/ffmetrics-1.png" alt="FFMetrics-1" width="600"></div><br>An open-source GUI for measuring PSNR, SSIM, and VMAF. It supports live charts and concurrent ranking across multiple versions.<br>You must add ffmpeg to the program directory manually, or add ffmpeg to `%PATH%`. |
 | **XPSNR (built into ffmpeg)** | Computes the difference between source and compressed output. It is an improved PSNR that focuses on perceptual quality, and requires the source and output time bases to align. |
 | **VMAF (built into ffmpeg)** | A subjective quality metric that focuses on perceived visual quality rather than simple difference. It also requires aligned time bases between source and output. |
 | **[SSIMULACRA2 VS-HIP](https://github.com/Line-fr/Vship)** | A CLI tool for accurate SSIMULACRA2.1 and Butteraugli quality scoring using NVIDIA and AMD GPUs. Accuracy is still affected by the usual speed-vs-precision tradeoff of GPUs. |
@@ -74,7 +74,7 @@ In general, PSNR and SSIM are inaccurate and untrustworthy. For measuring video 
 
 ### Time Base Alignment Tools
 
-In general, some video quality benchmarks need frame-distance statistics and similar data, so the time base of the source and compressed video must be aligned. Otherwise, the benchmark will be severely distorted and produce worse results. See the full AV1 tutorial and the condensed AV1 tutorial for details.
+In general, some video quality benchmarks need frame-distance statistics and similar data. For reliable results, the time bases of the source and compressed video must be aligned. Otherwise, the benchmark will be severely distorted and produce worse results. See the full AV1 tutorial and the condensed AV1 tutorial for details.
 
 **GitHub:** [GitHub/GCDLCMCalcualtor](https://github.com/iAvoe/GCDLCMCalculator-VideoQualityMetrics), **mirror backups:** [Google Drive](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing), [Baidu Cloud](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)
 
@@ -86,11 +86,11 @@ In general, some video quality benchmarks need frame-distance statistics and sim
 
 1. Download and install rustup: [rustup.rs](https://rustup.rs)
 2. Install [VapourSynth](https://github.com/vapoursynth/vapoursynth/releases) in full
-  - It **must** be installed to `C:\Program Files\VapourSynth`
+  - It **must** be installed in `C:\Program Files\VapourSynth`
   - You **must** choose "Install for all users"
 3. Install [Python](https://www.python.org) in full
-  - It **must** be run as administrator
-  - In the custom install, you **must** choose "Install for all users"
+  - It **must** be run as an administrator
+  - In the custom installation, you **must** choose "Install for all users"
   - VapourSynth is tightly bound to the Python version, so do not install a random version
 4. Check that `C:\Program Files\VapourSynth\sdk\lib64` exists. If it does not, the above steps were done incorrectly. Uninstall Python and VapourSynth, read carefully, and try again.
 
@@ -101,9 +101,9 @@ In general, some video quality benchmarks need frame-distance statistics and sim
   - You can uninstall rustup at this point
 7. Download the LSMAS decoder: [GitHub/AkarinVS](https://github.com/AkarinVS/L-SMASH-Works/releases)
 8. Choose a cache directory variant as needed:
-  - official: <code>cachedir=""</code>, the current command-line working directory; on Windows, this defaults to the C drive
-  - cwd: <code>cachedir="."</code>, meaning the command-line path at runtime, i.e. the initial path when CMD/PowerShell/Bash opens
-  - tmp: <code>cachedir=%TEMP%</code>, which uses the cache drive configured by the OS; on Windows this is usually the C drive
+  - official: <code>cachedir=""</code> uses the current command-line working directory; on Windows this defaults to the C drive
+  - cwd: <code>cachedir="."</code> uses the command-line path at runtime, i.e. the initial path when CMD/PowerShell/Bash opens
+  - tmp: <code>cachedir=%TEMP%</code> uses the system temp directory; on Windows this is usually the C drive
 8. Extract and copy `LSMASHSource.dll` and `LSMASHSource.pyd` into the VapourSynth plugin directory:
   - `C:\Program Files\VapourSynth\plugins`
 
@@ -119,7 +119,7 @@ To keep this brief, only two high-quality audio encoder options are listed here.
 
 ### QAAC
 
-An AAC encoder that focuses on high audio quality and depends on Apple CoreAudio. See **[QAAC audio encoding tutorial](https://www.nazorip.site/archives/44)** or the **[GitHub mirror](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)** for installation and usage.
+For installation and usage, see the **[QAAC audio encoding tutorial](https://www.nazorip.site/archives/44)** or the **[GitHub mirror](https://github.com/iAvoe/QAAC-Tutorial-Standalone/blob/master/%E6%95%99%E7%A8%8B.md)**. QAAC depends on Apple CoreAudio.
 
 <div style="display: flex; justify-content: center; align-items: center;"><img src="img/audio-codec-download/AAC_original_logo.svg" alt="aac-logo" width="200"></div>
 
@@ -131,7 +131,7 @@ An AAC encoder that focuses on high audio quality and depends on Apple CoreAudio
 
 > Image source: [OPUS official site](https://opus-codec.org/)
 
-An entirely open, royalty-free, multi-purpose OGG audio codec, usually called directly through ffmpeg. You can also download and use libopus according to the documentation on the [OPUS official site](https://opus-codec.org).
+An entirely open, royalty-free, multi-purpose OGG audio codec, usually called directly through ffmpeg. You can also download libopus and follow the documentation on the [OPUS official site](https://opus-codec.org) to use it.
 
 ---
 
@@ -141,10 +141,10 @@ It is recommended to study the tutorial series from the VCB-S encoding group dir
 
 | Tool | Description |
 |------|-------------|
-| **[VapourSynth](https://github.com/vapoursynth/vapoursynth/releases)** | Used to fix source videos that may contain visual issues. Pay attention to the strong binding between versions and the Python environment. **Install guide:** [vapoursynth.com](https://www.vapoursynth.com/doc/installation.html) |
+| **[VapourSynth](https://github.com/vapoursynth/vapoursynth/releases)** | Used to fix frame-level issues in source videos. Different versions are tightly bound to specific Python versions. **Install guide:** [vapoursynth.com](https://www.vapoursynth.com/doc/installation.html) |
 | **[AviSynth+](https://github.com/AviSynth/AviSynthPlus/releases)** | A classic video processing tool with multithreading optimizations and high-bit-depth support. It has largely been replaced by VapourSynth, but some filters are still exclusive to it. |
-| **[avs2yuv](https://github.com/DJATOM/avs2yuv/releases)** | Similar to VSPipe.exe in VapourSynth, making it easy to export AviSynth to a pipe. |
-| **[avs2pipemod](https://github.com/chikuzen/avs2pipemod/releases)** | Similar to VSPipe.exe in VapourSynth, making it easy to export AviSynth to a pipe. |
+| **[avs2yuv](https://github.com/DJATOM/avs2yuv/releases)** | Pipes AviSynth output to a CLI pipe, much like VSPipe.exe does for VapourSynth. |
+| **[avs2pipemod](https://github.com/chikuzen/avs2pipemod/releases)** | Pipes AviSynth output to a CLI pipe, much like VSPipe.exe does for VapourSynth. |
 
 ---
 
@@ -175,9 +175,9 @@ It is recommended to study the tutorial series from the VCB-S encoding group dir
 ### Build x264 Yourself
 
 - [Use media-autobuild_suite for automatic builds](https://github.com/m-ab-s/media-autobuild_suite)
-  - An extremely powerful one-stop multi-tool build script system with lots of files
+  - A comprehensive one-stop build script system for multiple tools.
 - [Manual x264 build on Windows (slightly better performance and compression)](.\Compile_x264_Windows.md)
-  - The downside is that ffmpegSource module integration is not implemented, but this has almost no impact
+  - The downside is that FFMS2 module integration is not included, but this has little to no practical impact.
 
 ---
 
@@ -187,7 +187,7 @@ It is recommended to study the tutorial series from the VCB-S encoding group dir
 
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/File:X265_%28HEVC_encoder%2C_logo%29.svg)
 
-The fact that the encoder itself does not support additional decoding or muxing/demuxing is not a defect. The encoder does not process audio streams, so audio still needs to be muxed after encoding. In addition, newer raw formats such as x265, AV1, and VVC can carry global metadata like frame rate, resolution, and color format, so they can still be previewed in a player even when left unmuxed.
+The fact that the encoder itself lacks additional decoding or muxing/demuxing support is not a defect. Video encoders do not process audio streams, so audio still needs to be muxed after encoding. In addition, newer raw formats such as x265, AV1, and VVC can carry global metadata like frame rate, resolution, and color format, so they can still be previewed in a player even when left unmuxed.
 
 | Source | Encoder audio muxing | Bit depth | Features |
 |------|------------|---------|------|
@@ -210,7 +210,7 @@ The fact that the encoder itself does not support additional decoding or muxing/
 > Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:AV1_logo_2018.svg)
 
 The encoder consists of two files: `SvtAv1Enc.dll` and `SvtAv1EncApp.exe`
-- Clang (LLVM) builds optimized for the current CPU architecture usually perform best, followed by GCC, then MSVC (Visual Studio). The performance gap can be as high as 10% to 50%.
+- Clang (LLVM) builds optimized for the current CPU architecture usually perform the best, followed by GCC, then MSVC (Visual Studio). The performance gap can be as high as 10% to 50%.
 
 | Source | Encoder audio muxing | Bit depth | Built | Features |
 |------|------------|---------|--------|------|
@@ -225,14 +225,14 @@ The encoder consists of two files: `SvtAv1Enc.dll` and `SvtAv1EncApp.exe`
 
 ### Option 1 - Manual SVT-AV1 Build on Windows
 
-This is relatively simple and suitable for beginners.
+This method is relatively simple and suitable for beginners.
 
 > Official guide: [Build Guide](https://gitlab.com/AOMediaCodec/SVT-AV1/-/blob/master/Docs/Build-Guide.md)
 
 1. Install **Visual Studio** (2017/2019/2022) and enable the **Desktop development with C++** component.
 2. Install **CMake**: [CMake Releases](https://github.com/Kitware/CMake/releases#gh-md-img-large)<br><div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/cmake-sm.png" alt="CMake" width="400"></div>
 3. Install **NASM**: [NASM official downloads](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)<br><div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/nasm.svg" alt="NASM" width="200"></div>
-    - In the cloud drive folder, choose the latest build based on your OS and instruction-set width.
+    - In the directory listing, choose the latest build based on your OS and instruction-set width.
         - For example, Windows 64-bit should use the latest `/win64/nasm-***-installer-x64.exe`
     - During install, you can uncheck Manual and VS8 Integration.
 4. Download the [SVT-AV1 source code](https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/master/SVT-AV1-master.zip) and run `Build/windows/build.bat`.
@@ -244,7 +244,7 @@ SvtAv1EncApp.exe -v
 
 ### Option 2 - Build SVT-AV1 with Clang (LLVM) (Recommended)
 
-This path is more complex, but still simpler than building x264, and delivers much better performance. It suits users with some programming experience.
+This method is more complex—but still simpler than building x264—and delivers much better performance. It suits users with some programming experience.
 
 > Run all commands in **CMD or (Git) Bash**. Do not use PowerShell.
 
@@ -253,13 +253,13 @@ This path is more complex, but still simpler than building x264, and delivers mu
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/svt-av1-download/llvm.png" alt="LLVM" width="400"></div>
 
 1. **LLVM (with clang support):** [LLVM Releases](https://github.com/llvm/llvm-project/releases/latest)
-   - In the cloud drive folder, choose the latest build for your OS and instruction-set width.
+   - In the directory listing, choose the latest build for your OS and instruction-set width.
      - For example, Windows 64-bit users should choose LLVM-***-win64.exe
    - During installation, select Add LLVM to the system PATH for all/current users.
 2. **Microsoft C++ Build Tools:** [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/vs/visual-cpp-build-tools)
    - If Visual Studio is already installed and you installed the Desktop development with C++ workload, you can skip this step.
    - Download and run the installer, then choose Desktop development with C++.
-   - Open Notepad and record the actual install path.
+   - Open a text editor and note the actual installation path.
    - On the install page, you can choose only MSVC and the latest Windows 10/11 SDK.
 3. **CMake** and **NASM**: same as above.
 4. Git (optional): git-scm.com/download/win
@@ -402,4 +402,4 @@ These projects are mainly useful for:
 
 ## References
 
-The original tutorial for SVT-AV1 Clang/LLVM builds is located at [Discord/AV1 weeb edition/scripts-tools-and-guides](https://discord.com/channels/992019264959676448/1253334764920766505). This document localizes it by adjusting commands such as `set`, adding `chcp`, and expanding the instructions with extra notes (for example, `vcvars` when Visual Studio is already installed), version-specific download guidance, and additional checks for LLVM, NASM, and CMake.
+The original tutorial for SVT-AV1 Clang/LLVM builds is on the AV1 Weeb Edition Discord in the `#scripts-tools-and-guides` channel. This document localizes it by adjusting commands such as `set`, adding `chcp`, and expanding the instructions with extra notes and checks for LLVM, NASM, and CMake.
