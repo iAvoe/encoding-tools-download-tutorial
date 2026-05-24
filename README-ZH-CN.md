@@ -385,7 +385,7 @@ ninja -C svt_build
 
 | 音频编码器项目                                                                  | 简介                                                     |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ |
-| **[QAAC – nu774](https://github.com/nu774/qaac)**                        | 基于 Apple CoreAudio 的 AAC 编码器前端（Windows 上需 iTunes DLL）。 |
+| **[QAAC – nu774](https://github.com/nu774/qaac)**                        | 基于 Apple CoreAudio，可能是最好的 AAC 音频编码器（Windows 上需 iTunes DLL）。 |
 | **[Opus – Xiph / Mozilla / Skype](https://gitlab.xiph.org/xiph/opus)**   | IETF 标准化的低延迟音频编码器，适用于语音与音乐。                            |
 | **[libopusenc – Xiph.Org](https://gitlab.xiph.org/xiph/libopusenc)**     | 封装 Opus 编码 API 的简易库，用于录音或实时流。                          |
 | **[FDK-AAC – Fraunhofer IIS](https://github.com/mstorsjo/fdk-aac)**      | Fraunhofer 官方开源 AAC 编码器（高质量 LC/HE/HEv2 模式）。            |

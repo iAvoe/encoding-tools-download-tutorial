@@ -384,7 +384,7 @@ These projects are mainly useful for:
 
 | Audio encoder project | Description |
 | --------------------- | ------------ |
-| **[QAAC – nu774](https://github.com/nu774/qaac)** | An AAC encoder frontend based on Apple CoreAudio (Windows requires iTunes DLLs). |
+| **[QAAC – nu774](https://github.com/nu774/qaac)** | Probably the best AAC audio encoder, based on Apple CoreAudio (Windows requires iTunes DLLs). |
 | **[Opus – Xiph / Mozilla / Skype](https://gitlab.xiph.org/xiph/opus)** | An IETF-standardized low-latency audio encoder for speech and music. |
 | **[libopusenc – Xiph.Org](https://gitlab.xiph.org/xiph/libopusenc)** | A small library that wraps the Opus encoding API for recording or live streaming. |
 | **[FDK-AAC – Fraunhofer IIS](https://github.com/mstorsjo/fdk-aac)** | Fraunhofer's open-source AAC encoder with high-quality LC/HE/HEv2 modes. |
