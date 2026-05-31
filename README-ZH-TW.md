@@ -162,7 +162,6 @@
 
 | 來源 | 封裝支持 | 特性 |
 |------|---------|------|
-| **[Patman](https://www.mediafire.com/folder/arv5xmdqyiczc)** | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit |
 | **[LigH](https://www.mediafire.com/?bxvu1vvld31k1)**         | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit |
 | **[jspdr (tMod)](https://github.com/jpsdr/x264/releases/)**  | ✅ FFMS2 解碼、Lavf 封裝              | 8-10bit，MCF 執行緒管理 |
 | **x264 7mod<br>[Google 盤](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)<br>[百度雲](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)** | ✅ FFMS2 Lavf 解碼與封裝 | 8-10bit，hqdn3d 時域降噪 |

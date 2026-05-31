@@ -162,7 +162,6 @@ It is recommended to study the tutorial series from the VCB-S encoding group dir
 
 | Source | Mux support | Features |
 |------|---------|------|
-| **[Patman](https://www.mediafire.com/folder/arv5xmdqyiczc)** | ✅ FFMS2 decode, Lavf muxing | 8-10bit |
 | **[LigH](https://www.mediafire.com/?bxvu1vvld31k1)** | ✅ FFMS2 decode, Lavf muxing | 8-10bit |
 | **[jspdr (tMod)](https://github.com/jpsdr/x264/releases/)** | ✅ FFMS2 decode, Lavf muxing | 8-10bit, MCF thread management |
 | **x264 7mod<br>[Google Drive](https://drive.google.com/drive/folders/1kFCeNGA_wiiLt-DSeI3cyY8vxlffgQcy?usp=sharing)<br>[Baidu Cloud](https://pan.baidu.com/s/1sbz8WztGTz3lcLzirHW_2w)** | ✅ FFMS2 and Lavf decode/mux | 8-10bit, hqdn3d temporal denoising |
