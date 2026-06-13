@@ -367,7 +367,8 @@ These projects are mainly useful for:
 | Video encoder project | Description |
 | --------------------- | ------------ |
 | **[x264 – VideoLAN](https://code.videolan.org/videolan/x264)** | H.264/AVC encoder maintained by the VideoLAN team, widely used in FFmpeg, OBS, and others. |
-| **[x265 – MulticoreWare](https://bitbucket.org/multicoreware/x265_git/src/master)** | The main open-source implementation of the H.265/HEVC encoder. |
+| **[x265 – MulticoreWare](https://bitbucket.org/multicoreware/x265_git/src/master)** | Main Open-source repository of the H.265/HEVC encoder  |
+| **[x265 – GitHub/MulticoreWare](https://github.com/Multicorewareinc/x265)**         | Main Open-source repository of the H.265/HEVC encoder (New) |
 | **[SVT-AV1 – AOMedia](https://gitlab.com/AOMediaCodec/SVT-AV1)** | A high-performance AV1 encoder maintained by Intel and part of the official AOMedia SVT family. |
 | **[libaom – AOMedia](https://aomedia.googlesource.com/aom/)** | AOMedia's official reference AV1 encoder implementation, quality first. |
 | **[rav1e – Xiph / Mozilla](https://github.com/xiph/rav1e)** | An AV1 encoder written in Rust, focused on safety and speed. |

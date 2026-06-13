@@ -367,7 +367,8 @@ ninja -C svt_build
 | 影片編碼器項目                                                                             | 簡介                                               |
 | ----------------------------------------------------------------------------------- | ------------------------------------------------ |
 | **[x264 – VideoLAN](https://code.videolan.org/videolan/x264)**                      | H.264/AVC 編碼器，由 VideoLAN 團隊維護，廣泛用於 FFmpeg、OBS 等。 |
-| **[x265 – MulticoreWare](https://bitbucket.org/multicoreware/x265_git/src/master)** | H.265/HEVC 編碼器的主要開源實現。                           |
+| **[x265 – MulticoreWare](https://bitbucket.org/multicoreware/x265_git/src/master)** | H.265/HEVC 編碼器官方倉庫                              |
+| **[x265 – GitHub/MulticoreWare](https://github.com/Multicorewareinc/x265)**         | H.265/HEVC 編碼器官方倉庫（新）                           |
 | **[SVT-AV1 – AOMedia](https://gitlab.com/AOMediaCodec/SVT-AV1)**                    | Intel 維護的高性能 AV1 編碼器，屬於 AOMedia 官方 SVT 系列。       |
 | **[libaom – AOMedia](https://aomedia.googlesource.com/aom/)**                       | AOMedia 官方 AV1 編碼器參考實現（品質優先）。                    |
 | **[rav1e – Xiph / Mozilla](https://github.com/xiph/rav1e)**                         | 用 Rust 編寫的 AV1 編碼器，專注安全與速度。                      |
