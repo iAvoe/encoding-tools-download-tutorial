@@ -35,7 +35,7 @@
 | 工具 | 簡介 |
 |------|------|
 | **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/shana-encoder.png" alt="shana-encoder" width="500"><img src="img/tools-download/shana-encoder-1.png" alt="shana-encoder-1" width="500"><img src="img/tools-download/shana-encoder-2.png" alt="shana-encoder-2" width="500"></div><br>ffmpeg-CLI 搭配部分 GUI，上手較慢。使用了 ffmpeg 內嵌的 libx264、libx265、NVEnc。 |
-| **[Simple x264 Launcher](https://bitbucket.org/muldersoft/simple-x264-launcher/downloads/)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>內嵌 AviSynth，支持便攜版 VapourSynth，額外支持 x265 和 NVEnc 編碼器，適合批次壓制。 |
+| **[Simple x264 Launcher](https://github.com/lordmulder/Simple-x264-Launcher)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>內嵌 AviSynth，支持便攜版 VapourSynth，額外支持 x265 和 NVEnc 編碼器，適合批次壓制。 |
 | **小丸工具箱<br>鏡像：[百度雲](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取碼 `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>操作簡單、適合入門的中文軟體，內嵌 MediaInfo、mp4box、Mkvtoolnix。 |
 
 ### 其它編碼器調用工具
