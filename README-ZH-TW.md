@@ -37,16 +37,7 @@
 | **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/shana-encoder.png" alt="shana-encoder" width="500"><img src="img/tools-download/shana-encoder-1.png" alt="shana-encoder-1" width="500"><img src="img/tools-download/shana-encoder-2.png" alt="shana-encoder-2" width="500"></div><br>ffmpeg-CLI 搭配部分 GUI，上手較慢。使用了 ffmpeg 內嵌的 libx264、libx265、NVEnc。 |
 | **[Simple x264 Launcher](https://github.com/lordmulder/Simple-x264-Launcher)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>內嵌 AviSynth，支持便攜版 VapourSynth，額外支持 x265 和 NVEnc 編碼器，適合批次壓制。 |
 | **小丸工具箱<br>鏡像：[百度雲](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) 提取碼 `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>操作簡單、適合入門的中文軟體，內嵌 MediaInfo、mp4box、Mkvtoolnix。 |
-
-### 其它編碼器調用工具
-
-#### PowerShell 批處理智慧壓制工具（bbenc）
-
-一款容易上手的強力效率工具。主打自動根據影片規格，用戶需求，電腦硬體等條件，給出 ffmpeg、vspipe（API 自適應）、avs2yuv（AviSynth(+) 自適應）、avs2pipemod、SVFI 源，到 x264、x265、SVT-AV1 編碼器參數的訂製。附帶 VS/AVS 腳本自動生成功能，以及複雜封裝命令生成工具。
-
-- **首頁**：[NazoRip](https://nazorip.site/archives/1101/)
-    - *[GitHub 項目頁](https://github.com/iAvoe/Batch-batch-encoder/tree/main)*
-    - *[提問與回饋](https://github.com/iAvoe/Batch-batch-encoder/issues)*
+| **[1cenc/OneColumnEncoder](https://github.com/iAvoe/OneColumnEncoder)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/1cenc-1.webp" alt="1cenc" width="1200"></div><br>一款智慧化、自動化、參與操作流程，支持自動生成多種影片濾鏡與影音編碼參數、VS/AVS 腳本編輯、壓制參數 UI 控制與即時 A/B 預覽、可編輯隊列、現代多執行緒控制、現代進度監視器等強大功能的壓制軟體，支持多種語言和原生中文。 |
 
 ## 影片畫質跑分工具
 

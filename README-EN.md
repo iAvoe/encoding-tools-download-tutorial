@@ -37,16 +37,7 @@ This guide is provided for learning and research purposes only. It does not cons
 | **[ShanaEncoder](https://shana.pe.kr/shanaencoder_download)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/shana-encoder.png" alt="shana-encoder" width="500"><img src="img/tools-download/shana-encoder-1.png" alt="shana-encoder-1" width="500"><img src="img/tools-download/shana-encoder-2.png" alt="shana-encoder-2" width="500"></div><br>A mix of ffmpeg CLI and some GUI. It is slower to learn, but uses bundled libx264, libx265, and NVEnc from ffmpeg. |
 | **[Simple x264 Launcher](https://github.com/lordmulder/Simple-x264-Launcher)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/simple-x264-launcher.png" alt="simple-x264-launcher" width="600"></div><br>Includes AviSynth, supports portable VapourSynth, and also works with x265 and NVEnc encoders. Good for batch encoding. |
 | **Xiaowan Toolbox<br>mirror: [Baidu Cloud](https://pan.baidu.com/s/1VHonGHoZ0DmQBNZaRjML2A?pwd=crhu) extraction code `crhu`** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/xiaowan-toolbox.png" alt="simple-x264-launcher" width="600"></div><br>An easy-to-use Chinese tool suitable for beginners, with built-in MediaInfo, mp4box, and Mkvtoolnix. |
-
-### Other Encoder Launchers
-
-#### PowerShell batch smart encoding tool (bbenc)
-
-An easy-to-use but powerful productivity tool. It automatically generates tailored ffmpeg, vspipe (API-aware), avs2yuv (AviSynth(+) aware), avs2pipemod, and SVFI source configurations, then maps them to x264, x265, and SVT-AV1 encoder parameters based on video specs, user requirements, and hardware. It also includes VS/AVS script generation and complex mux command generation.
-
-- **Homepage:** [NazoRip](https://nazorip.site/archives/1101/)
-    - *[GitHub project page](https://github.com/iAvoe/Batch-batch-encoder/tree/main)*
-    - *[Questions and feedback](https://github.com/iAvoe/Batch-batch-encoder/issues)*
+| **[1cenc/OneColumnEncoder](https://github.com/iAvoe/OneColumnEncoder)** | <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;"><img src="img/tools-download/1cenc-1.webp" alt="1cenc" width="1200"></div><br>A smart, automated encoding software that supports automatic generation of various video filters and audio/video encoding parameters, VS/AVS script editing, UI control of compression parameters and real-time A/B preview, editable video queues, modern parallel processing control, and modern progress monitoring. It supports multiple languages ​​and native English. |
 
 ## Video Quality Benchmark Tools
 
