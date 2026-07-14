@@ -128,7 +128,7 @@
 
 ## 影片濾鏡工具
 
-建議直接學習 VCB-S 壓制組的教學系列：[vcb-s.nmm-hd.org](https://vcb-s.nmm-hd.org/)
+推薦的教學系列：[GitHub（新版）](https://github.com/vcb-s/guides/tree/master)、[vcb-s.nmm-hd.org（舊版）](https://vcb-s.nmm-hd.org/)
 
 | 工具 | 簡介 |
 |------|------|

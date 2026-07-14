@@ -128,7 +128,7 @@
 
 ## 视频滤镜工具
 
-建议直接学习 VCB-S 压制组的教程系列：[vcb-s.nmm-hd.org](https://vcb-s.nmm-hd.org/)
+推荐的教程系列：[GitHub（新版）](https://github.com/vcb-s/guides/tree/master)、[vcb-s.nmm-hd.org（旧版）](https://vcb-s.nmm-hd.org/)
 
 | 工具 | 简介 |
 |------|------|

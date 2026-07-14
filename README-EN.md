@@ -128,7 +128,7 @@ An entirely open, royalty-free, multi-purpose OGG audio codec, usually called di
 
 ## Video Filter Tools
 
-It is recommended to study the tutorial series from the VCB-S encoding group directly: [vcb-s.nmm-hd.org](https://vcb-s.nmm-hd.org/)
+Recommendation——VCB-Studio's guide: [GitHub (New version)](https://github.com/vcb-s/guides/tree/master)、[vcb-s.nmm-hd.org (Old version)](https://vcb-s.nmm-hd.org/)
 
 | Tool | Description |
 |------|-------------|
